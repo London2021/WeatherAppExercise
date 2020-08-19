@@ -1,1 +1,1 @@
-# WhaetherAppExercise
+# WheatherAppExercise
