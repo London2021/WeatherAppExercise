@@ -1,1 +1,1 @@
-# WheatherAppExercise
+# WeatherAppExercise
