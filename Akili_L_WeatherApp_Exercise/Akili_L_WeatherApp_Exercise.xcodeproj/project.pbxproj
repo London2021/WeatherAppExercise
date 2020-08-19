@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FA28DED24E5CC5000F0BC25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA28DEC24E5CC5000F0BC25 /* AppDelegate.swift */; };
+		6FA28DEF24E5CC5000F0BC25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA28DEE24E5CC5000F0BC25 /* ViewController.swift */; };
+		6FA28DF224E5CC5000F0BC25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FA28DF024E5CC5000F0BC25 /* Main.storyboard */; };
+		6FA28DF524E5CC5000F0BC25 /* Akili_L_WeatherApp_Exercise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6FA28DF324E5CC5000F0BC25 /* Akili_L_WeatherApp_Exercise.xcdatamodeld */; };
+		6FA28DF724E5CC5200F0BC25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FA28DF624E5CC5200F0BC25 /* Assets.xcassets */; };
+		6FA28DFA24E5CC5200F0BC25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FA28DF824E5CC5200F0BC25 /* LaunchScreen.storyboard */; };
+		6FA28E0524E5CC5200F0BC25 /* Akili_L_WeatherApp_ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA28E0424E5CC5200F0BC25 /* Akili_L_WeatherApp_ExerciseTests.swift */; };
+		6FA28E1024E5CC5200F0BC25 /* Akili_L_WeatherApp_ExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA28E0F24E5CC5200F0BC25 /* Akili_L_WeatherApp_ExerciseUITests.swift */; };
+		6FD6031B24ED8401002A2F21 /* Weather.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FD6031A24ED8401002A2F21 /* Weather.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FA28E0124E5CC5200F0BC25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FA28DE124E5CC5000F0BC25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FA28DE824E5CC5000F0BC25;
+			remoteInfo = Akili_L_WeatherApp_Exercise;
+		};
+		6FA28E0C24E5CC5200F0BC25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FA28DE124E5CC5000F0BC25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FA28DE824E5CC5000F0BC25;
+			remoteInfo = Akili_L_WeatherApp_Exercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FA28DE924E5CC5000F0BC25 /* Akili_L_WeatherApp_Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Akili_L_WeatherApp_Exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FA28DEC24E5CC5000F0BC25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6FA28DEE24E5CC5000F0BC25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6FA28DF124E5CC5000F0BC25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FA28DF424E5CC5000F0BC25 /* Akili_L_WeatherApp_Exercise.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Akili_L_WeatherApp_Exercise.xcdatamodel; sourceTree = "<group>"; };
+		6FA28DF624E5CC5200F0BC25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FA28DF924E5CC5200F0BC25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FA28DFB24E5CC5200F0BC25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FA28E0024E5CC5200F0BC25 /* Akili_L_WeatherApp_ExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Akili_L_WeatherApp_ExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FA28E0424E5CC5200F0BC25 /* Akili_L_WeatherApp_ExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Akili_L_WeatherApp_ExerciseTests.swift; sourceTree = "<group>"; };
+		6FA28E0624E5CC5200F0BC25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FA28E0B24E5CC5200F0BC25 /* Akili_L_WeatherApp_ExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Akili_L_WeatherApp_ExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FA28E0F24E5CC5200F0BC25 /* Akili_L_WeatherApp_ExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Akili_L_WeatherApp_ExerciseUITests.swift; sourceTree = "<group>"; };
+		6FA28E1124E5CC5200F0BC25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FD6031A24ED8401002A2F21 /* Weather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Weather.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FA28DE624E5CC5000F0BC25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FA28DFD24E5CC5200F0BC25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FA28E0824E5CC5200F0BC25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FA28DE024E5CC5000F0BC25 = {
+			isa = PBXGroup;
+			children = (
+				6FA28DEB24E5CC5000F0BC25 /* Akili_L_WeatherApp_Exercise */,
+				6FA28E0324E5CC5200F0BC25 /* Akili_L_WeatherApp_ExerciseTests */,
+				6FA28E0E24E5CC5200F0BC25 /* Akili_L_WeatherApp_ExerciseUITests */,
+				6FA28DEA24E5CC5000F0BC25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FA28DEA24E5CC5000F0BC25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FA28DE924E5CC5000F0BC25 /* Akili_L_WeatherApp_Exercise.app */,
+				6FA28E0024E5CC5200F0BC25 /* Akili_L_WeatherApp_ExerciseTests.xctest */,
+				6FA28E0B24E5CC5200F0BC25 /* Akili_L_WeatherApp_ExerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FA28DEB24E5CC5000F0BC25 /* Akili_L_WeatherApp_Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				6FA28DEC24E5CC5000F0BC25 /* AppDelegate.swift */,
+				6FA28DEE24E5CC5000F0BC25 /* ViewController.swift */,
+				6FA28DF024E5CC5000F0BC25 /* Main.storyboard */,
+				6FD6031A24ED8401002A2F21 /* Weather.png */,
+				6FA28DF624E5CC5200F0BC25 /* Assets.xcassets */,
+				6FA28DF824E5CC5200F0BC25 /* LaunchScreen.storyboard */,
+				6FA28DFB24E5CC5200F0BC25 /* Info.plist */,
+				6FA28DF324E5CC5000F0BC25 /* Akili_L_WeatherApp_Exercise.xcdatamodeld */,
+			);
+			path = Akili_L_WeatherApp_Exercise;
+			sourceTree = "<group>";
+		};
+		6FA28E0324E5CC5200F0BC25 /* Akili_L_WeatherApp_ExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FA28E0424E5CC5200F0BC25 /* Akili_L_WeatherApp_ExerciseTests.swift */,
+				6FA28E0624E5CC5200F0BC25 /* Info.plist */,
+			);
+			path = Akili_L_WeatherApp_ExerciseTests;
+			sourceTree = "<group>";
+		};
+		6FA28E0E24E5CC5200F0BC25 /* Akili_L_WeatherApp_ExerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6FA28E0F24E5CC5200F0BC25 /* Akili_L_WeatherApp_ExerciseUITests.swift */,
+				6FA28E1124E5CC5200F0BC25 /* Info.plist */,
+			);
+			path = Akili_L_WeatherApp_ExerciseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FA28DE824E5CC5000F0BC25 /* Akili_L_WeatherApp_Exercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FA28E1424E5CC5200F0BC25 /* Build configuration list for PBXNativeTarget "Akili_L_WeatherApp_Exercise" */;
+			buildPhases = (
+				6FA28DE524E5CC5000F0BC25 /* Sources */,
+				6FA28DE624E5CC5000F0BC25 /* Frameworks */,
+				6FA28DE724E5CC5000F0BC25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Akili_L_WeatherApp_Exercise;
+			productName = Akili_L_WeatherApp_Exercise;
+			productReference = 6FA28DE924E5CC5000F0BC25 /* Akili_L_WeatherApp_Exercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FA28DFF24E5CC5200F0BC25 /* Akili_L_WeatherApp_ExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FA28E1724E5CC5200F0BC25 /* Build configuration list for PBXNativeTarget "Akili_L_WeatherApp_ExerciseTests" */;
+			buildPhases = (
+				6FA28DFC24E5CC5200F0BC25 /* Sources */,
+				6FA28DFD24E5CC5200F0BC25 /* Frameworks */,
+				6FA28DFE24E5CC5200F0BC25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FA28E0224E5CC5200F0BC25 /* PBXTargetDependency */,
+			);
+			name = Akili_L_WeatherApp_ExerciseTests;
+			productName = Akili_L_WeatherApp_ExerciseTests;
+			productReference = 6FA28E0024E5CC5200F0BC25 /* Akili_L_WeatherApp_ExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6FA28E0A24E5CC5200F0BC25 /* Akili_L_WeatherApp_ExerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FA28E1A24E5CC5200F0BC25 /* Build configuration list for PBXNativeTarget "Akili_L_WeatherApp_ExerciseUITests" */;
+			buildPhases = (
+				6FA28E0724E5CC5200F0BC25 /* Sources */,
+				6FA28E0824E5CC5200F0BC25 /* Frameworks */,
+				6FA28E0924E5CC5200F0BC25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FA28E0D24E5CC5200F0BC25 /* PBXTargetDependency */,
+			);
+			name = Akili_L_WeatherApp_ExerciseUITests;
+			productName = Akili_L_WeatherApp_ExerciseUITests;
+			productReference = 6FA28E0B24E5CC5200F0BC25 /* Akili_L_WeatherApp_ExerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FA28DE124E5CC5000F0BC25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Akili London";
+				TargetAttributes = {
+					6FA28DE824E5CC5000F0BC25 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					6FA28DFF24E5CC5200F0BC25 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 6FA28DE824E5CC5000F0BC25;
+					};
+					6FA28E0A24E5CC5200F0BC25 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 6FA28DE824E5CC5000F0BC25;
+					};
+				};
+			};
+			buildConfigurationList = 6FA28DE424E5CC5000F0BC25 /* Build configuration list for PBXProject "Akili_L_WeatherApp_Exercise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FA28DE024E5CC5000F0BC25;
+			productRefGroup = 6FA28DEA24E5CC5000F0BC25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FA28DE824E5CC5000F0BC25 /* Akili_L_WeatherApp_Exercise */,
+				6FA28DFF24E5CC5200F0BC25 /* Akili_L_WeatherApp_ExerciseTests */,
+				6FA28E0A24E5CC5200F0BC25 /* Akili_L_WeatherApp_ExerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FA28DE724E5CC5000F0BC25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA28DFA24E5CC5200F0BC25 /* LaunchScreen.storyboard in Resources */,
+				6FA28DF724E5CC5200F0BC25 /* Assets.xcassets in Resources */,
+				6FD6031B24ED8401002A2F21 /* Weather.png in Resources */,
+				6FA28DF224E5CC5000F0BC25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FA28DFE24E5CC5200F0BC25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FA28E0924E5CC5200F0BC25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FA28DE524E5CC5000F0BC25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA28DEF24E5CC5000F0BC25 /* ViewController.swift in Sources */,
+				6FA28DED24E5CC5000F0BC25 /* AppDelegate.swift in Sources */,
+				6FA28DF524E5CC5000F0BC25 /* Akili_L_WeatherApp_Exercise.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FA28DFC24E5CC5200F0BC25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA28E0524E5CC5200F0BC25 /* Akili_L_WeatherApp_ExerciseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FA28E0724E5CC5200F0BC25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA28E1024E5CC5200F0BC25 /* Akili_L_WeatherApp_ExerciseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FA28E0224E5CC5200F0BC25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FA28DE824E5CC5000F0BC25 /* Akili_L_WeatherApp_Exercise */;
+			targetProxy = 6FA28E0124E5CC5200F0BC25 /* PBXContainerItemProxy */;
+		};
+		6FA28E0D24E5CC5200F0BC25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FA28DE824E5CC5000F0BC25 /* Akili_L_WeatherApp_Exercise */;
+			targetProxy = 6FA28E0C24E5CC5200F0BC25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FA28DF024E5CC5000F0BC25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FA28DF124E5CC5000F0BC25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FA28DF824E5CC5200F0BC25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FA28DF924E5CC5200F0BC25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FA28E1224E5CC5200F0BC25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Debug;
+		};
+		6FA28E1324E5CC5200F0BC25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FA28E1524E5CC5200F0BC25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Akili_L_WeatherApp_Exercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Akili-London.Akili-L-WeatherApp-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		6FA28E1624E5CC5200F0BC25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Akili_L_WeatherApp_Exercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Akili-London.Akili-L-WeatherApp-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		6FA28E1824E5CC5200F0BC25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Akili_L_WeatherApp_ExerciseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Akili-London.Akili-L-WeatherApp-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Akili_L_WeatherApp_Exercise.app/Akili_L_WeatherApp_Exercise";
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Debug;
+		};
+		6FA28E1924E5CC5200F0BC25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Akili_L_WeatherApp_ExerciseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Akili-London.Akili-L-WeatherApp-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Akili_L_WeatherApp_Exercise.app/Akili_L_WeatherApp_Exercise";
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Release;
+		};
+		6FA28E1B24E5CC5200F0BC25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Akili_L_WeatherApp_ExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Akili-London.Akili-L-WeatherApp-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = Akili_L_WeatherApp_Exercise;
+			};
+			name = Debug;
+		};
+		6FA28E1C24E5CC5200F0BC25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Akili_L_WeatherApp_ExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Akili-London.Akili-L-WeatherApp-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = Akili_L_WeatherApp_Exercise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FA28DE424E5CC5000F0BC25 /* Build configuration list for PBXProject "Akili_L_WeatherApp_Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FA28E1224E5CC5200F0BC25 /* Debug */,
+				6FA28E1324E5CC5200F0BC25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FA28E1424E5CC5200F0BC25 /* Build configuration list for PBXNativeTarget "Akili_L_WeatherApp_Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FA28E1524E5CC5200F0BC25 /* Debug */,
+				6FA28E1624E5CC5200F0BC25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FA28E1724E5CC5200F0BC25 /* Build configuration list for PBXNativeTarget "Akili_L_WeatherApp_ExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FA28E1824E5CC5200F0BC25 /* Debug */,
+				6FA28E1924E5CC5200F0BC25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FA28E1A24E5CC5200F0BC25 /* Build configuration list for PBXNativeTarget "Akili_L_WeatherApp_ExerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FA28E1B24E5CC5200F0BC25 /* Debug */,
+				6FA28E1C24E5CC5200F0BC25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6FA28DF324E5CC5000F0BC25 /* Akili_L_WeatherApp_Exercise.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6FA28DF424E5CC5000F0BC25 /* Akili_L_WeatherApp_Exercise.xcdatamodel */,
+			);
+			currentVersion = 6FA28DF424E5CC5000F0BC25 /* Akili_L_WeatherApp_Exercise.xcdatamodel */;
+			path = Akili_L_WeatherApp_Exercise.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6FA28DE124E5CC5000F0BC25 /* Project object */;
+}
